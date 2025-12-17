@@ -51,7 +51,7 @@ const emailField = document.getElementById("email")
 renderTeam(teamMembers, teamContainer);
 
 //GESTIONE DI AGGIUNTA NUOVO MEMBRO
-form.addEventListener("submit" , addMember);
+form.addEventListener("submit", addMember);
 
 
 
@@ -112,9 +112,9 @@ function addMember(event) {
 
   //CREO IL NUOVO OGGETTO DEL MEMBRO(INIZILIZZAZIONE NUOVA CARD)
   const newMember = {
+    img,
     name,
     role,
-    img,
     email,
   }
   //AGGIUNTA DEL NUOVO OGGETTO ALL'ARRAY DI PARTENZA
