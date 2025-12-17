@@ -1,0 +1,43 @@
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: deeppink;
+}
+
+h1, p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.team-card{
+    border: 1px solid black;
+}
+
+.card-dati{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#title-form{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+}
